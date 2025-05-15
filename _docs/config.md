@@ -5183,7 +5183,7 @@ If an external authentication method is used, the decryption key for
 server-side encryption is based on information sent back by the
 external authentication provider. Encryption still happens (e.g., when
 `multi_user` is not set to `True`), but the encryption key is not a
-secret The protection offered by server-side encryption will be less,
+secret. The protection offered by server-side encryption will be less,
 because a resourceful hacker could figure out the encryption key for
 decrypting interview answers, based on information stored unencrypted
 on the server.
